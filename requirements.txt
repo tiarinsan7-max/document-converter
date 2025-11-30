@@ -27,6 +27,8 @@ chardet==5.2.0
 python-dotenv==1.2.1
 aiofiles==25.1.0
 python-multipart==0.0.20
+tqdm==4.67.1
+click==8.3.1
 
 # Logging
 loguru==0.7.3
