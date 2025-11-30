@@ -1,0 +1,64 @@
+{
+  "conversion_rules": {
+    "pdf": {
+      "quality_settings": {
+        "low": {
+          "dpi": 72,
+          "compression": "high"
+        },
+        "medium": {
+          "dpi": 150,
+          "compression": "medium"
+        },
+        "high": {
+          "dpi": 300,
+          "compression": "low"
+        }
+      },
+      "ocr_enabled": true,
+      "preserve_images": true,
+      "preserve_links": true
+    },
+    "docx": {
+      "preserve_formatting": true,
+      "preserve_styles": true,
+      "preserve_tables": true,
+      "preserve_images": true
+    },
+    "xlsx": {
+      "preserve_formulas": true,
+      "preserve_formatting": true,
+      "max_rows": 1048576,
+      "max_columns": 16384
+    },
+    "csv": {
+      "delimiter": ",",
+      "encoding": "utf-8",
+      "quote_char": "\"",
+      "escape_char": "\\",
+      "line_terminator": "\n"
+    },
+    "json": {
+      "indent": 2,
+      "ensure_ascii": false,
+      "sort_keys": false,
+      "encoding": "utf-8"
+    },
+    "txt": {
+      "encoding": "utf-8",
+      "line_ending": "auto",
+      "preserve_whitespace": true
+    }
+  },
+  "batch_processing": {
+    "max_concurrent": 4,
+    "timeout_seconds": 300,
+    "retry_attempts": 3,
+    "skip_errors": true
+  },
+  "file_validation": {
+    "max_file_size_mb": 100,
+    "scan_for_viruses": false,
+    "validate_content": true
+  }
+}

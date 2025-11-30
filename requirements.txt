@@ -1,0 +1,63 @@
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Document Processing - PDF
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+reportlab==4.0.9
+pypdf==3.17.4
+pdf2docx==0.5.6
+
+# Document Processing - Excel/CSV
+pandas==2.1.4
+openpyxl==3.1.2
+xlrd==2.0.1
+xlsxwriter==3.1.9
+
+# Document Processing - Word
+python-docx==1.1.0
+docx2pdf==0.1.8
+
+# Document Processing - Images
+Pillow==10.2.0
+pytesseract==0.3.10
+
+# Text Processing
+chardet==5.2.0
+python-magic==0.4.27
+
+# Web UI - Streamlit
+streamlit==1.30.0
+streamlit-option-menu==0.3.6
+
+# CLI
+click==8.1.7
+rich==13.7.0
+tqdm==4.66.1
+
+# Utilities
+python-multipart==0.0.6
+aiofiles==23.2.1
+python-dotenv==1.0.0
+
+# Logging & Monitoring
+loguru==0.7.2
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+httpx==0.26.0
+
+# Code Quality
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0
+
+# Additional Format Support
+markdown==3.5.2
+beautifulsoup4==4.12.3
+lxml==5.1.0

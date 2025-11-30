@@ -1,0 +1,14 @@
+{
+  "1st_workflow": {
+    "name": "1st_workflow",
+    "input_dir": "/root/Cline/uploads",
+    "output_dir": "/root/Cline/outputs",
+    "output_format": "docx",
+    "quality": "high",
+    "recursive": false,
+    "enabled": true,
+    "created_at": "2025-11-30T12:52:48.342648",
+    "last_run": "2025-11-30T12:53:11.160071",
+    "run_count": 1
+  }
+}
